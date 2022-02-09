@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/css/style.css">
+    <title>lev1_1-1_3</title>
+  </head>
+  <body>
+    <!--lev1_1-->
+    <h3>lev1_1</h3>
+
+    <form action="" onsubmit="return false">
+      <fieldset class="b">
+        <legend>Age Control</legend>
+        <label for="input-age">Age:</label>
+        <input type="number" name="age" id="input-age">
+        <input type="submit" value="Check" onclick="adult()">
+      </fieldset>
+    </form>
+    <h4>Kontrollergebnis:</h4>
+    <div id="out"></div>
+    <hr>
+    <form action="" onsubmit="return false">
+      <fieldset class="g">
+        <legend>Age Control v2.0</legend>
+        <label for="input-age2">Age:</label>
+        <input type="number" name="age" id="input-age2">
+        <input type="submit" value="Check" onclick="control()">
+      </fieldset>
+    </form>
+    <h4>Kontrollergebnis:</h4>
+    <div id="out2"></div>
+
+    <hr>
+
+    <!--lev1_2-->
+    <h3>lev1_2</h3>
+
+    <form action="" onsubmit="return false">
+      <fieldset class="d">
+        <legend>Weather</legend>
+        <label for="input-value">Value:</label>
+        <input type="number" name="value" id="input-value">
+        <input type="submit" value="Control" onclick="weather()">
+      </fieldset>
+    </form>
+    <h4>Qualitätsergebnis</h4>
+    <div id="out3"></div>
+
+    <hr>
+
+    <!--lev1_3-->
+    <h3>lev1_3</h3>
+
+    <h2>JavaScript: if else statement</h2>
+    <p class="bold">Hier prüft die if else-Anweisung, ob die Input-Marken größer als 18 sind oder nicht. Ob man Shisha rauchen darf oder nicht.</p>
+    <form action="" onsubmit="return false">
+      <label for="input">Geben Sie Ihr Alter ein</label>
+      <input type="number" name="age" id="input">
+      <input type="submit" value="Alter" onclick="adult2()">
+      <div id="out4"></div>
+    </form>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
